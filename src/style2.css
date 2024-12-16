@@ -1,0 +1,112 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover,a:focus{
+    color: rgb(24, 219, 112);
+}
+#navbar{
+    padding: 8px;
+    margin: 0%;
+}
+#logo{
+    height: 30px;
+}
+h1,h2{
+    text-align: center;
+    color: darkblue;
+}
+#banner{
+    width: 100%;
+    object-fit: cover;
+}
+.location{
+    color: grey;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+#description{
+    width: 50%;
+    padding:8px;
+}
+#team1{
+    width: 50%;
+}
+#Team{
+    border-radius: 5px ;
+    width: 100%;
+}
+#job{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+.job-role{
+    margin-bottom: 0px;
+}
+.Apply{
+    float: right;
+}
+#footer{
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+#footer-links {
+    list-style: none;
+}
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-header-row th {
+        border: 1px solid rgb(177, 161, 161);
+        padding: 8px;
+        background-color: aliceblue;
+        text-align: center;
+}
+.jobs-data-row td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+#jobs-table tr:nth-child(odd){
+    background-color:ghostwhite;
+}
+#Application{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+#Application-form label{
+   font-weight: 600;
+}
+#Application-form input ,select,textarea{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    margin-bottom: 18px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+#hi{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#hi :hover{
+    color: black;
+}
